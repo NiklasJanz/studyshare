@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyShare - The Student Sharing Ecosystem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StudyShare</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Democratizing Educational Resources</h1>
+            <p>A peer-to-peer sharing ecosystem designed exclusively for college and university students. Exchange textbooks, electronics, and study tools without the need for a direct swap partner.</p>
+            <a href="#signup" class="cta-button">Join the Waitlist</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Why Choose StudyShare?</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h3>Asynchronous Exchange</h3>
+                <p>Unlike traditional bartering, you do not need to find a direct match. The Points system provides immediate liquidity for your unwanted goods.</p>
+            </div>
+            <div class="feature-item">
+                <h3>High-Trust Environment</h3>
+                <p>Mandatory .edu verification eliminates the scams and safety risks associated with open platforms, guaranteeing a safe environment.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Frictionless Logistics</h3>
+                <p>Integrated shipping labels mean students simply pack the item, attach the printed or QR-code label, and drop it off at campus mailrooms.</p>
+            </div>
+            <div class="feature-item">
+                <h3>StudyShare Plus</h3>
+                <p>A premium membership offering zero platform fees, discounted shipping rates, and free labels to provide recurring value for power users.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="flow-container">
+            <div class="flow-step">
+                <div class="step-number">1</div>
+                <h3>Join</h3>
+                <p>Sign up with your .edu email.</p>
+            </div>
+            <div class="flow-arrow"></div>
+            <div class="flow-step">
+                <div class="step-number">2</div>
+                <h3>Give Away</h3>
+                <p>List items you no longer need. When another student claims one, you earn Points.</p>
+            </div>
+            <div class="flow-arrow"></div>
+            <div class="flow-step">
+                <div class="step-number">3</div>
+                <h3>Get What You Need</h3>
+                <p>Use your Points to claim items from other students. You just pay a flat $5 shipping fee. No direct swap partner needed. If you don't have enough Points, you can buy more.</p>
+            </div>
+            <div class="flow-arrow"></div>
+            <div class="flow-step">
+                <div class="step-number">4</div>
+                <h3>Ship</h3>
+                <p>When someone claims your item, simply print the prepaid label and drop the item off at your campus mailroom. The buyer pays for shipping!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About StudyShare</h2>
+        <p><strong>Our Mission:</strong> To democratize access to educational resources and reduce the financial burden on students by building a trusted, sustainable, and entirely circular peer-to-peer sharing economy.</p>
+        <p>Founded by California college student Niklas Janz, StudyShare is initially focusing on the California market with plans to scale nationally, tapping into the 19 million college students across the United States to provide sustainable alternatives to expensive retail outlets.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 StudyShare. All rights reserved.</p>
+    </footer>
+
+    <!-- Script for hamburger menu functionality -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+    <script src="script.js"></script>
+<<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6ae928a1c99a8e00dab4b855' },
+          url: 'https://general-runtime.voiceflow.com',
+          render: {
+            mode: 'overlay',
+            position: {
+              left: '20px',
+              bottom: '20px'
+            }
+          }
+        });
+      }
+      v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+</body>
+</html>
