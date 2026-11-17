@@ -342,4 +342,5 @@ footer {
 .image-container { max-width: 530px; margin-left: auto; margin-right: auto; }
 
 /* Make "Our Flagship Offering" readable */
-#hero .image-container h3 { color: #2d3748; }
+/* No frame around the product image */
+#hero .image-container { background: transparent; padding: 0; }
