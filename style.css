@@ -335,3 +335,11 @@ footer {
 .nav-logo-wrapper { display: flex; align-items: center; }
 .nav-logo-wrapper .image-container { margin: 0 10px 0 0; padding: 0; background: transparent; min-width: max-content; }
 .nav-logo-wrapper .company-image { width: 40px; margin: 0; box-shadow: none; border-radius: 4px; }
+/* Bigger logo in the nav bar */
+.nav-logo-wrapper .company-image { width: 44px; height: 44px; border-radius: 10px; }
+
+/* Frame only as wide as the image */
+.image-container { max-width: 530px; margin-left: auto; margin-right: auto; }
+
+/* Make "Our Flagship Offering" readable */
+#hero .image-container h3 { color: #2d3748; }
